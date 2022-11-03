@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #a8a4aa;
+    background-image: linear-gradient(0deg, #a8a4aa 0%, #839a97 100%);
+
+}
+body h1{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 25px 0px 25px 0px;
+    text-shadow: 1px 1px 1px #dde9f3;
+    ;
+}
+main{
+    box-shadow: 0px 0px 40px #fff ;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    width: 800px;
+    height: 800px;
+    background-image: linear-gradient(180deg, #a8a4aa 0%, #839a97 100%);
+}
+.formula{
+    margin: 20px;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+}
+.tamanho, select{
+    width: 100%;
+    padding: 10px;
+    background-color: #eee; 
+}
+.selEnvio{
+    margin-bottom: 10px;
+}
+label {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+    color: #444;
+    display: block;
+}
+
+input, select{
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #aaa;
+}
+input:hover, select:hover{
+    background-color: #dde9f3;
+}
+.botao .submEnvia{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 30px;
+}
+.submEnvia:hover{
+    color: rgb(120, 101, 230);
+    width: 40%;
+    padding: 3%;
+    font-size: 1.5rem;
+    letter-spacing: 1.5;
+    font-weight: 700;
+    transition: all 1s linear;
+    background-color: #aad0f0;
+}

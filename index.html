@@ -8,6 +8,54 @@
     <title>Login-Formulario</title>
 </head>
 <body>
-    
+        <main>
+                <h1>FORMULARIO DE CADASTRO</h1>
+            <div class="formula">    
+                <form action="Readme.md" method="post">
+             
+                <label>Nome: <br/>
+                    <input class="tamanho" type="text" name="nome" autofocus required minlength="2">
+                </label>    
+                <label>Sobrenome: <br/>
+                    <input class="tamanho" type="text" name="sobrenome">
+                </label>    
+                <label> E-mail: <br/>
+                    <input class="tamanho" type="text" name="email">
+                </label>
+                <label> Senha: <br/>
+                    <input class="tamanho" type="password" placeholder="Senha">
+                </label> 
+                <label> Repetir a Senha: <br/>
+                    <input class="tamanho" type="password" placeholder="Senha">
+                </label> 
+                <label>
+                    <input class="escolha" type="radio" name="sexo">Masculino
+                </label>
+                <label>
+                    <input class="escolha" type="radio" name="sexo">Feminino
+                </label>
+                <label> 
+                    Região: <br/>
+                <select class="selEnvio" name="regiõe" >
+                    <option value=""></option>
+                    <option value="sul">Sul</option>
+                    <option value="co">Centro-Oeste</option>
+                    <option value="no">Nordeste</option>
+                    <option value="su">Sudeste</option>
+                    <option value="nor">Norte</option>
+                </select>
+                </label>
+                <label> Estado: <br/>
+                    <input class="tamanho" type="password">
+                </label> 
+                <label> Cidade: <br/>
+                    <input class="tamanho" type="password">
+                </label>
+                <label class="botao">
+                    <input class="submEnvia" type="submit" >
+                </label>
+                </form>
+            </div>    
+        </main>
 </body>
 </html>
